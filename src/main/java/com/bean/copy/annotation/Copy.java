@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Created by pnlpr114 on 14-12-2015.
+ * This annotation declares the fieldnames when they are different.
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)

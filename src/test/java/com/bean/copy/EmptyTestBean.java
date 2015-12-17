@@ -5,6 +5,7 @@ package com.bean.copy;
  */
 public class EmptyTestBean {
 
+    private String ignoreCopy;
     private String testString2;
     private String testStringNoAnnotation;
 
@@ -22,5 +23,13 @@ public class EmptyTestBean {
 
     public void setTestStringNoAnnotation(String testStringNoAnnotation) {
         this.testStringNoAnnotation = testStringNoAnnotation;
+    }
+
+    public String getIgnoreCopy() {
+        return ignoreCopy;
+    }
+
+    public void setIgnoreCopy(String ignoreCopy) {
+        this.ignoreCopy = ignoreCopy;
     }
 }
